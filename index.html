@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Abay Horizon Academy admissions website demo for Ethiopian private schools." />
+  <meta name="theme-color" content="#102a43" />
+  <title>Abay Horizon Academy | Admissions Open</title>
+  <link rel="preconnect" href="https://images.unsplash.com" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <div class="admission-bar">
+    <div class="container admission-bar__inner">
+      <span><strong>2026/27 Admissions Open</strong> — KG to Grade 12</span>
+      <a href="#apply">Start application <span aria-hidden="true">→</span></a>
+    </div>
+  </div>
+
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top" aria-label="Abay Horizon Academy home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 48 48" role="img">
+            <path d="M8 34V15l16-8 16 8v19" />
+            <path d="M14 34V18l10-5 10 5v16" />
+            <path d="M20 34V23h8v11" />
+            <path d="M5 38h38" />
+          </svg>
+        </span>
+        <span>
+          <strong>Abay Horizon</strong>
+          <small>Academy</small>
+        </span>
+      </a>
+
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span></span><span></span><span></span>
+        <span class="sr-only">Toggle menu</span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#programs">Programs</a>
+        <a href="#campus">Campus</a>
+        <a href="#admissions">Admissions</a>
+        <a href="#contact">Contact</a>
+        <button class="language-button" type="button" aria-label="Switch language">አማ</button>
+        <a class="button button--small button--primary" href="#apply">Apply now</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="hero-media" role="img" aria-label="Students learning together in a bright classroom"></div>
+      <div class="hero-overlay"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><span></span> Learning today. Leading tomorrow.</div>
+          <h1>A school where every child is <em>seen, challenged and inspired.</em></h1>
+          <p>From Kindergarten to Grade 12, Abay Horizon combines strong academics, caring teachers and a safe, modern campus in Addis Ababa.</p>
+          <div class="hero-actions">
+            <a class="button button--primary" href="#apply">Apply for admission</a>
+            <button class="button button--ghost video-open" type="button">
+              <span class="play-icon" aria-hidden="true">▶</span> Watch our school film
+            </button>
+          </div>
+          <div class="hero-trust">
+            <div class="avatar-stack" aria-hidden="true">
+              <span>AM</span><span>SB</span><span>HF</span>
+            </div>
+            <div><strong>Trusted by 700+ families</strong><small>Building confident learners since 2012</small></div>
+          </div>
+        </div>
+
+        <aside class="enquiry-card reveal" aria-label="Quick admission enquiry">
+          <span class="card-kicker">Limited spaces available</span>
+          <h2>Book a campus visit</h2>
+          <p>Meet our teachers, explore the campus and get answers from our admissions team.</p>
+          <form id="visit-form">
+            <label>
+              Parent or guardian name
+              <input name="parentName" type="text" placeholder="Your full name" required />
+            </label>
+            <label>
+              Phone number
+              <input name="phone" type="tel" placeholder="09 __ __ __ __ __" required />
+            </label>
+            <label>
+              Grade of interest
+              <select name="grade" required>
+                <option value="">Choose a level</option>
+                <option>Kindergarten</option>
+                <option>Primary — Grades 1–6</option>
+                <option>Middle — Grades 7–8</option>
+                <option>High School — Grades 9–12</option>
+              </select>
+            </label>
+            <button class="button button--primary button--full" type="submit">Request a visit</button>
+            <small class="form-note">Our admissions team will call within one working day.</small>
+          </form>
+        </aside>
+      </div>
+    </section>
+
+    <section class="stats-strip" aria-label="School statistics">
+      <div class="container stats-grid">
+        <div><strong>14+</strong><span>Years of learning</span></div>
+        <div><strong>18:1</strong><span>Student–teacher ratio</span></div>
+        <div><strong>96%</strong><span>Parent satisfaction</span></div>
+        <div><strong>25+</strong><span>Clubs and activities</span></div>
+      </div>
+    </section>
+
+    <section class="section welcome" id="about">
+      <div class="container split-grid">
+        <div class="image-composition reveal">
+          <div class="image-card image-card--large"></div>
+          <div class="image-card image-card--small"></div>
+          <div class="experience-badge"><strong>14</strong><span>years of<br />excellence</span></div>
+        </div>
+        <div class="section-copy reveal">
+          <div class="eyebrow eyebrow--dark"><span></span> Welcome to Abay Horizon</div>
+          <h2>Education that builds knowledge, character and confidence.</h2>
+          <p class="lead">We believe children thrive when high expectations are matched with genuine care. Our students are encouraged to think deeply, communicate clearly and contribute positively.</p>
+          <div class="feature-list">
+            <article>
+              <span class="feature-icon">✓</span>
+              <div><h3>Strong academics</h3><p>A rigorous curriculum supported by practical learning and continuous assessment.</p></div>
+            </article>
+            <article>
+              <span class="feature-icon">✓</span>
+              <div><h3>Caring community</h3><p>Teachers know each learner and maintain close communication with families.</p></div>
+            </article>
+            <article>
+              <span class="feature-icon">✓</span>
+              <div><h3>Whole-child development</h3><p>Sports, arts, technology and leadership are part of everyday school life.</p></div>
+            </article>
+          </div>
+          <a class="text-link" href="#programs">Explore our learning approach <span>→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section programs" id="programs">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div>
+            <div class="eyebrow eyebrow--dark"><span></span> Learning pathways</div>
+            <h2>A strong foundation at every stage.</h2>
+          </div>
+          <p>Age-appropriate programs designed to help students grow academically, socially and emotionally.</p>
+        </div>
+
+        <div class="program-grid">
+          <article class="program-card reveal">
+            <div class="program-image program-image--kg"><span>Age 3–6</span></div>
+            <div class="program-content"><small>Early years</small><h3>Kindergarten</h3><p>Play-based learning that develops language, curiosity, independence and school readiness.</p><a href="#apply">Learn more <span>→</span></a></div>
+          </article>
+          <article class="program-card reveal">
+            <div class="program-image program-image--primary"><span>Grades 1–6</span></div>
+            <div class="program-content"><small>Foundational learning</small><h3>Primary School</h3><p>Strong literacy, numeracy, science and social skills taught through engaging lessons.</p><a href="#apply">Learn more <span>→</span></a></div>
+          </article>
+          <article class="program-card reveal">
+            <div class="program-image program-image--secondary"><span>Grades 7–12</span></div>
+            <div class="program-content"><small>Future preparation</small><h3>Secondary School</h3><p>Focused academics, career guidance and leadership opportunities for future-ready graduates.</p><a href="#apply">Learn more <span>→</span></a></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section campus" id="campus">
+      <div class="container">
+        <div class="section-heading section-heading--center reveal">
+          <div class="eyebrow eyebrow--dark"><span></span> Life at Abay Horizon</div>
+          <h2>More than classrooms.</h2>
+          <p>A safe, active environment where students discover interests, friendships and confidence.</p>
+        </div>
+
+        <div class="gallery-grid reveal">
+          <div class="gallery-item gallery-item--1"><span><strong>Modern classrooms</strong><small>Bright spaces designed for active learning</small></span></div>
+          <div class="gallery-item gallery-item--2"><span><strong>Science & technology</strong><small>Hands-on discovery and digital skills</small></span></div>
+          <div class="gallery-item gallery-item--3"><span><strong>Arts & creativity</strong><small>Music, drawing, performance and expression</small></span></div>
+          <div class="gallery-item gallery-item--4"><span><strong>Sport & wellbeing</strong><small>Healthy habits, teamwork and confidence</small></span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="film-section">
+      <div class="container film-grid">
+        <div class="phone-demo reveal" aria-label="Vertical admissions video preview">
+          <div class="phone-shell">
+            <div class="phone-top"></div>
+            <div class="reel" id="reel-preview">
+              <div class="reel-shade"></div>
+              <span class="reel-badge">Admissions 2026/27</span>
+              <div class="reel-copy">
+                <small>ABAY HORIZON ACADEMY</small>
+                <strong id="reel-title">A place to belong.</strong>
+                <span id="reel-subtitle">Safe campus • Caring teachers</span>
+              </div>
+              <div class="reel-progress"><i></i></div>
+            </div>
+          </div>
+        </div>
+        <div class="film-copy reveal">
+          <div class="eyebrow"><span></span> See the school in action</div>
+          <h2>One minute can show parents what words cannot.</h2>
+          <p>Our admissions film gives families a real feeling for the campus, teachers, classrooms and student life before they book a visit.</p>
+          <ul class="check-list">
+            <li>Vertical format for Facebook, Instagram and TikTok</li>
+            <li>Clear admission message and contact details</li>
+            <li>Built from real school footage and parent trust signals</li>
+          </ul>
+          <button class="button button--light video-open" type="button"><span class="play-icon">▶</span> Play sample film</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section admissions" id="admissions">
+      <div class="container">
+        <div class="section-heading section-heading--center reveal">
+          <div class="eyebrow eyebrow--dark"><span></span> Simple admissions</div>
+          <h2>Three steps to join our community.</h2>
+          <p>Our admissions team guides every family from first enquiry to the first day of school.</p>
+        </div>
+        <div class="steps-grid">
+          <article class="step-card reveal"><span>01</span><div class="step-icon">✎</div><h3>Submit an enquiry</h3><p>Tell us about your child and the grade you are interested in.</p></article>
+          <article class="step-card reveal"><span>02</span><div class="step-icon">⌂</div><h3>Visit the campus</h3><p>Tour the school, meet our team and discuss your child’s needs.</p></article>
+          <article class="step-card reveal"><span>03</span><div class="step-icon">✓</div><h3>Complete registration</h3><p>Provide the required documents and secure your child’s place.</p></article>
+        </div>
+        <div class="requirements-card reveal">
+          <div><small>Prepare before applying</small><h3>Commonly required documents</h3></div>
+          <ul><li>Student birth certificate or ID</li><li>Previous school report</li><li>Two passport photographs</li><li>Parent or guardian ID</li></ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonial-section">
+      <div class="container testimonial-grid">
+        <div class="testimonial-copy reveal">
+          <div class="quote-mark">“</div>
+          <blockquote>My daughter became more confident, curious and responsible. The teachers know her personally, and we always understand how she is progressing.</blockquote>
+          <div class="parent-info"><strong>Meron T.</strong><span>Parent of a Grade 5 student</span></div>
+          <div class="testimonial-controls"><button type="button" aria-label="Previous testimonial">←</button><button type="button" aria-label="Next testimonial">→</button></div>
+        </div>
+        <div class="testimonial-image reveal"><div class="rating-card"><span>★★★★★</span><strong>4.9 / 5</strong><small>Average parent rating</small></div></div>
+      </div>
+    </section>
+
+    <section class="section apply" id="apply">
+      <div class="container apply-grid">
+        <div class="apply-copy reveal">
+          <div class="eyebrow eyebrow--dark"><span></span> Start your application</div>
+          <h2>Give your child a place to grow.</h2>
+          <p>Complete this short form and our admissions team will contact you with availability, fees and the next steps.</p>
+          <div class="contact-mini">
+            <a href="tel:+251911234567"><span>☎</span><div><small>Admissions hotline</small><strong>+251 911 234 567</strong></div></a>
+            <a href="mailto:admissions@example.com"><span>✉</span><div><small>Email us</small><strong>admissions@example.com</strong></div></a>
+          </div>
+        </div>
+        <form class="application-form reveal" id="application-form">
+          <div class="form-header"><span>Online application</span><strong>2026/27 Academic Year</strong></div>
+          <div class="form-grid">
+            <label>Parent/guardian name<input type="text" name="guardian" required placeholder="Full name" /></label>
+            <label>Phone number<input type="tel" name="phone" required placeholder="09 __ __ __ __ __" /></label>
+            <label>Student name<input type="text" name="student" required placeholder="Full name" /></label>
+            <label>Student age<input type="number" name="age" required min="3" max="20" placeholder="Age" /></label>
+            <label>Applying for<select name="level" required><option value="">Select grade</option><option>Kindergarten</option><option>Grade 1</option><option>Grade 2</option><option>Grade 3</option><option>Grade 4</option><option>Grade 5</option><option>Grade 6</option><option>Grade 7</option><option>Grade 8</option><option>Grade 9</option><option>Grade 10</option><option>Grade 11</option><option>Grade 12</option></select></label>
+            <label>Area of residence<input type="text" name="area" placeholder="e.g. Bole, CMC" /></label>
+            <label class="form-wide">Message or question<textarea name="message" rows="4" placeholder="Anything you would like the admissions team to know"></textarea></label>
+          </div>
+          <label class="consent"><input type="checkbox" required /> <span>I agree to be contacted by the school regarding this application.</span></label>
+          <button class="button button--primary button--full" type="submit">Submit application</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="section faq">
+      <div class="container faq-grid">
+        <div class="faq-intro reveal"><div class="eyebrow eyebrow--dark"><span></span> Parent questions</div><h2>Everything you need to know.</h2><p>Still unsure? Call our admissions team and we will guide you.</p><a class="text-link" href="tel:+251911234567">Call admissions <span>→</span></a></div>
+        <div class="accordion reveal">
+          <details open><summary>Which grade levels are currently accepting students?<span>+</span></summary><p>Applications are open from Kindergarten through Grade 12, subject to availability in each class.</p></details>
+          <details><summary>Can parents visit before applying?<span>+</span></summary><p>Yes. Campus visits are available during school hours by appointment with the admissions office.</p></details>
+          <details><summary>Does the school provide transport?<span>+</span></summary><p>Transport is available on selected routes across Addis Ababa. Route details are confirmed during registration.</p></details>
+          <details><summary>How will I know my application was received?<span>+</span></summary><p>You will see an instant confirmation and receive a follow-up call from the admissions team.</p></details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="contact">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a class="brand brand--footer" href="#top"><span class="brand-mark"><svg viewBox="0 0 48 48"><path d="M8 34V15l16-8 16 8v19"/><path d="M14 34V18l10-5 10 5v16"/><path d="M20 34V23h8v11"/><path d="M5 38h38"/></svg></span><span><strong>Abay Horizon</strong><small>Academy</small></span></a>
+        <p>Building capable, confident and compassionate young people in Addis Ababa.</p>
+        <div class="social-links"><a href="#" aria-label="Facebook">f</a><a href="#" aria-label="Instagram">◎</a><a href="#" aria-label="TikTok">♪</a><a href="#" aria-label="Telegram">➤</a></div>
+      </div>
+      <div><h3>Explore</h3><a href="#about">About us</a><a href="#programs">Programs</a><a href="#campus">Campus life</a><a href="#admissions">Admissions</a></div>
+      <div><h3>Contact</h3><p>Bole Sub-City, Addis Ababa</p><a href="tel:+251911234567">+251 911 234 567</a><a href="mailto:admissions@example.com">admissions@example.com</a><p>Mon–Fri: 8:00 AM–5:00 PM</p></div>
+      <div class="footer-cta"><h3>Admissions are open</h3><p>Spaces are limited for the 2026/27 academic year.</p><a class="button button--primary button--full" href="#apply">Apply online</a></div>
+    </div>
+    <div class="container footer-bottom"><span>© <span id="year"></span> Abay Horizon Academy. Demo website.</span><span>Privacy · Terms · Safeguarding</span></div>
+  </footer>
+
+  <div class="mobile-actions" aria-label="Quick actions">
+    <a href="tel:+251911234567"><span>☎</span> Call</a>
+    <a href="#apply"><span>✎</span> Apply</a>
+    <a href="https://maps.google.com" target="_blank" rel="noopener"><span>⌖</span> Directions</a>
+  </div>
+
+  <div class="modal" id="video-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Sample school admissions video">
+    <button class="modal-close" type="button" aria-label="Close video">×</button>
+    <div class="modal-content">
+      <div class="video-stage" id="video-stage">
+        <div class="video-shade"></div>
+        <span class="video-tag">ADMISSIONS 2026/27</span>
+        <div class="video-text"><small>ABAY HORIZON ACADEMY</small><strong id="modal-video-title">A place to belong.</strong><span id="modal-video-subtitle">Safe campus • Caring teachers</span></div>
+        <div class="video-timeline"><i></i></div>
+      </div>
+      <p>This is an interactive video concept. Real delivery would use footage from the school.</p>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"><span>✓</span><div><strong>Thank you!</strong><small>Your demo submission was received.</small></div></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
